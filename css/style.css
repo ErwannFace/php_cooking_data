@@ -1,0 +1,24 @@
+/* text */
+
+* {
+	font-family: 'DejaVu Sans', 'sans';
+}
+
+/* lists */
+
+ul li {
+	list-style: none;
+}
+
+/* links */
+
+h2 a {
+	text-decoration: none;
+}
+
+/* text classes */
+
+.error {
+	color: red;
+	font-weight: 700;
+}
