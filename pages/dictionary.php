@@ -6,6 +6,7 @@
 	$string = file_get_contents('../dictionnaire.txt', FILE_USE_INCLUDE_PATH);
 	$dico = explode("\n", $string);
 ?>
+		<p><a href='../dictionnaire.txt'>Display the dictionary</a></p>
 		<p>
 			Number of words in the dictionary:<br />
 			<?php
